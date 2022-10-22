@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".detailactivity.DetailIndoActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_detail_indo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="120dp"
+            app:cardCornerRadius="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txt_detail_publishednewsindo"
+            app:layout_constraintStart_toStartOf="@+id/txt_detail_authornewsindo"
+            app:layout_constraintTop_toBottomOf="@+id/txt_detail_publishednewsindo">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/img_detail_newsbisnis"
+                    android:layout_width="0dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="16dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txt_detail_authornewsindo"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Author"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/txt_detail_titlenewsindo"
+            app:layout_constraintTop_toBottomOf="@+id/txt_detail_titlenewsindo" />
+
+        <TextView
+            android:id="@+id/txt_detail_titlenewsindo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_detail_publishednewsindo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Published At"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="@+id/txt_detail_titlenewsindo"
+            app:layout_constraintStart_toEndOf="@+id/txt_detail_authornewsindo"
+            app:layout_constraintTop_toTopOf="@+id/txt_detail_authornewsindo" />
+
+        <TextView
+            android:id="@+id/txt_detail_deskindo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Desk"
+            app:layout_constraintEnd_toEndOf="@+id/cv_detail_indo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/cv_detail_indo"
+            app:layout_constraintTop_toBottomOf="@+id/cv_detail_indo" />
+
+        <TextView
+            android:id="@+id/txt_detail_contextindo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Context"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txt_detail_deskindo"
+            app:layout_constraintStart_toStartOf="@+id/txt_detail_deskindo"
+            app:layout_constraintTop_toBottomOf="@+id/txt_detail_deskindo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

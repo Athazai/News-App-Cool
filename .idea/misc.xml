@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2005" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/drawable/ic_search.xml" value="0.2005" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_bisnis.xml" value="0.2" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_covid.xml" value="0.24681933842239187" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_detail_bisnis.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_detail_entertaiment.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_detail_health.xml" value="0.4739776951672863" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_detail_indo.xml" value="0.2" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_detail_sains.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_detail_sports.xml" value="0.176" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_detail_teknologi.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_doa.xml" value="0.16530797101449277" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_entertaiment.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_health.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_meninggal_covid.xml" value="0.176" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_news_indo.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_pahlawan.xml" value="0.136" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_sains.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_sports.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/activity_teknologi.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_bisnis.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_covid.xml" value="0.36432160804020103" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_doa.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_entertaiment.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_health.xml" value="0.264" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_indo.xml" value="0.2" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_meninggalcovid.xml" value="0.4" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_sains.xml" value="0.2" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_sports.xml" value="0.25" />
+        <entry key="..\:/Users/ATHALLAH/AndroidStudioProjects/IDNFest/app/src/main/res/layout/item_recycler_teknologi.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
