@@ -3,12 +3,9 @@ package com.athzaq.idnfest
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
-import com.athzaq.idnfest.activity.CovidActivity
 import com.athzaq.idnfest.activity.NewsIndoActivity
+import com.athzaq.idnfest.activity.ProfileActivity
 import com.athzaq.idnfest.databinding.ActivityMainBinding
-import com.athzaq.idnfest.databinding.ActivityNewsIndoBinding
-import com.athzaq.idnfest.detailactivity.DetailIndoActivity
 import com.athzaq.idnfest.kategoriactivity.*
 
 class MainActivity : AppCompatActivity() {
@@ -23,9 +20,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.cvIndonesiaNews.setOnClickListener {
             startActivity(Intent(this, NewsIndoActivity::class.java))
-        }
-        binding.cvCovid.setOnClickListener {
-            startActivity(Intent(this, CovidActivity::class.java))
         }
         binding.cvBisnis.setOnClickListener {
             startActivity(Intent(this, BisnisActivity::class.java))
@@ -45,6 +39,8 @@ class MainActivity : AppCompatActivity() {
         binding.cvHealth.setOnClickListener {
             startActivity(Intent(this, HealthActivity::class.java))
         }
-
+        binding.cvProfile.setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
+        }
     }
 }

@@ -9,7 +9,6 @@ import coil.load
 import com.athzaq.idnfest.databinding.ItemRecyclerBisnisBinding
 import com.athzaq.idnfest.detailactivity.DetailBisnisActivity
 import com.athzaq.idnfest.model.ArticlesItem
-import com.athzaq.idnfest.model.DataItem
 
 class AdapterBisnis(private val listbisnis : ArrayList<ArticlesItem> = arrayListOf()) : RecyclerView.Adapter<AdapterBisnis.ViewHolder>() {
     class ViewHolder(var binding : ItemRecyclerBisnisBinding) : RecyclerView.ViewHolder(binding.root)

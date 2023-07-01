@@ -1,6 +1,5 @@
 package com.athzaq.idnfest.service
 
-import com.athzaq.idnfest.model.ResponseCovid
 import com.athzaq.idnfest.model.ResponseNews
 import okhttp3.OkHttpClient
 import retrofit2.Call
@@ -26,8 +25,7 @@ object RetrofitBuild {
         .build()
 
     fun getServiceKNewsIndo() = News.create(NewsIndo::class.java)
-    fun getServiceCovidProvinsi() = kbbi.create(CovidProvinsi::class.java)
-//    fun getServiceKBBI() = kbbi.create(Doa::class.java)
+
 
     fun getServiceBisnis() = News.create(Bisnis::class.java)
     fun getServiceScience() = News.create(Sains::class.java)
@@ -84,15 +82,3 @@ interface Sports {
 
     fun headlinesHealth() : Call<ResponseNews>
 }
-
-
-
-
-
-
-
-    interface CovidProvinsi {
-        @GET("api/provinsi")
-
-        fun headlineCovidProv() : Call<ResponseCovid>
-    }
